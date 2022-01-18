@@ -36,6 +36,6 @@ for arquivo in arquivos:
         i += 1
         nome_arquivo = os.path.basename(arquivo).replace(".png", f"_letra{i}.png")
         cv2.imwrite(f'letras/{nome_arquivo}', imagem_letra)
-        cv2.rectangle(imagem_final, (x - 2, y - 2), (x + largura + 2, y + altura + 2), (0,255,0), 1)
+        cv2.rectangle(imagem_final, (x-2, y-2), (x+largura+2, y+altura+2), (0, 255, 0), 1)
     nome_arquivo = os.path.basename(arquivo)
     cv2.imwrite(f"identificados/{nome_arquivo}", imagem_final)
