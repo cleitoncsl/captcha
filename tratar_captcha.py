@@ -14,7 +14,7 @@ def tratar_imagens(pasta_origem, pasta_destino='ajeitado'):
 
         _, imagem_tratada = cv2.threshold(imagem_cinza, 127, 255, cv2.THRESH_TRUNC or cv2.THRESH_OTSU)
         nome_arquivo = os.path.basename(arquivo)
-        cv2.imwrite(f'{pasta_destino}/{nome_arquivo}.png', imagem_tratada)
+        cv2.imwrite(f'{pasta_destino}/{nome_arquivo}', imagem_tratada)
 
     arquivos = glob.glob(f'{pasta_destino}/*')
 
