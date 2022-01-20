@@ -2,6 +2,7 @@ from keras.models import load_model
 from helpers import resize_to_fit
 from imutils import paths
 import numpy as np
+import os
 import cv2
 import pickle
 from tratar_captcha import tratar_imagens
@@ -61,7 +62,8 @@ def quebrarcaptcha():
                 previsao.append(letra_prevista)
 
             texto_previsao = "".join(previsao)
-            print(f' {arquivo} => {texto_previsao}')
+            nome_arquivo = os.path.basename(arquivo).split(".",1)[0]
+            print(f' {nome_arquivo} => {texto_previsao}')
 
 
 if __name__ == "__main__":

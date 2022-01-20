@@ -1,3 +1,4 @@
+# etapa 1
 import cv2
 import os
 import glob
@@ -20,8 +21,8 @@ def tratar_imagens(pasta_origem, pasta_destino='ajeitado'):
 
     for arquivo in arquivos:
         imagem = Image.open(arquivo)
-        imagem = imagem.convert("L")
-        imagem2 = Image.new("L", imagem.size, 255)
+        imagem = imagem.convert("P")
+        imagem2 = Image.new("P", imagem.size, 255)
 
         for x in range(imagem.size[1]):
             for y in range(imagem.size[0]):
