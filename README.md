@@ -20,3 +20,6 @@ https://www.sefaz.mt.gov.br/cnd/certidao/geradorcaracteres
 
 import matplotlib.pyplot as plt
 cv2.imshow('image',img)
+
+# tenho que remover a grid da imagem
+https://docs.opencv.org/4.x/dd/dd7/tutorial_morph_lines_detection.html
