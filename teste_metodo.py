@@ -9,7 +9,7 @@ metodos = [
     cv2.THRESH_TOZERO_INV
 ]
 
-imagem = cv2.imread("bdcaptcha/SEFAZMT01.png")
+imagem = cv2.imread("bdcaptcha/telanova9.png")
 
 # transformar em escalda de cinza
 imagem_cinza = cv2.cvtColor(imagem, cv2.COLOR_RGB2GRAY)

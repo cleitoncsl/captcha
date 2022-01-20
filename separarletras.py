@@ -1,6 +1,8 @@
 import cv2
 import os
 import glob
+# depois vou apagar o matplot
+import matplotlib.pyplot as plt
 
 arquivos = glob.glob('ajeitado/*')
 
