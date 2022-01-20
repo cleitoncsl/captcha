@@ -14,3 +14,9 @@ https://drive.google.com/drive/folders/131O9HzR2OnhJanRWMaJrXDH_4HGdP-X8
 # SEFAZ MT
 
 https://www.sefaz.mt.gov.br/cnd/certidao/geradorcaracteres
+
+
+# MATPLOT TESTES Com a imagem
+
+import matplotlib.pyplot as plt
+cv2.imshow('image',img)
