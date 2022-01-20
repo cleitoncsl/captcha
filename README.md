@@ -23,3 +23,6 @@ cv2.imshow('image',img)
 
 # tenho que remover a grid da imagem
 https://docs.opencv.org/4.x/dd/dd7/tutorial_morph_lines_detection.html
+
+# exemplos para remover grid
+1 - https://github.com/hridayns/Grid-Removal-using-OpenCV
